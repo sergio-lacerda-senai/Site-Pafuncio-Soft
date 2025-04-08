@@ -1,3 +1,5 @@
+/************* Estilos para index.html *************/
+
 body {
     margin: 0px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -77,4 +79,87 @@ footer {
     font-weight: lighter;
     padding: 10px 0px;
     margin-top: auto;
+}
+
+/************* Estilos para sobre.html *************/
+
+#conteudo-empresa {
+    display: flex;
+}
+
+#conteudo-empresa-esquerda {
+    width: 50%;
+}
+
+#conteudo-empresa-direita {
+    width: 50%;
+}
+
+#conteudo-empresa-direita p {
+    padding-left: 30px;
+    text-align: justify;
+}
+
+#img-empresa {
+    width: 100%;
+}
+
+#selo-melhores-empresas {
+    height: 25%;
+    margin-top: 35px;
+}
+
+/************* Estilos para solucoes.html *************/
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #22577a;
+    font-size: 28px;
+}
+
+.destaques-produtos {
+    padding: 0px 15px;
+}
+
+.destaques-produtos a {
+    text-decoration: none;
+    color: goldenrod;
+}
+
+.destaques-produtos a:hover {
+    font-weight: bold;
+}
+
+/************* Estilos para casos.html *************/
+
+.detalhes-caso {
+    display: flex;
+    margin: 30px 0px;
+}
+
+.detalhes-caso img {
+    padding-right: 30px;
+}
+.detalhes-caso-texto {
+    text-align: start;
+}
+
+/************* Estilos para contato.html *************/
+
+#frm-container {
+    display: flex;
+}
+
+#frm-labels {
+    background-color: aqua;
+    width: 50%;
+    text-align: right;
+    padding-right: 15px;
+}
+
+#frm-fields {
+    background-color: burlywood;
+    width: 50%;
+    text-align: left;
+    padding-left: 15px;
 }
